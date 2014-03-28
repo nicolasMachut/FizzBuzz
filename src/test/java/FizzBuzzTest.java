@@ -1,7 +1,6 @@
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by nicolas on 28/03/14.
@@ -18,26 +17,26 @@ public class FizzBuzzTest {
     @Test
     public void EstUnMultipleDeTrois()
     {
-        assertEquals("FIZZ",this.fizzBuzz.CalculLeResultat(3));
+        Assert.assertEquals("FIZZ", this.fizzBuzz.CalculLeResultat(3));
     }
 
     @Test
     public void EstUnMultipleDeCinq()
     {
-        assertEquals("BUZZ", this.fizzBuzz.CalculLeResultat(5));
+        Assert.assertEquals("BUZZ", this.fizzBuzz.CalculLeResultat(5));
     }
 
     @Test
     public void EstUnNombreNormal()
     {
-        assertEquals("2",this.fizzBuzz.CalculLeResultat(2));
+        Assert.assertEquals("2", this.fizzBuzz.CalculLeResultat(2));
     }
 
 
     @Test
     public void EstUnNombreMultipleDeCinqEtTrois()
     {
-        assertEquals("FIZZBUZZ", this.fizzBuzz.CalculLeResultat(15));
+        Assert.assertEquals("FIZZBUZZ", this.fizzBuzz.CalculLeResultat(15));
     }
 
 
