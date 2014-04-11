@@ -38,7 +38,4 @@ public class FizzBuzzTest {
     {
         Assert.assertEquals("FIZZBUZZ", this.fizzBuzz.CalculLeResultat(15));
     }
-
-
-
 }
